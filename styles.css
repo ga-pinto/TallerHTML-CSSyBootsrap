@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Estilos para la sección de artistas */
+.fav-section {
+    margin-bottom: 40px;
+}
+
+
+/* para imagenes */
+.fav-section img {
+    width: 100%;              
+    height: auto;              
+    border-radius: 0px;       
+}
+
+.fav-section h3 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de lista */
+.fav-list {
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.fav-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-list li {
+    background-color: #343a40; /* Fondo para cada bloque */
+    color: white;
+    margin-bottom: 15px; /* Espacio entre bloques */
+    padding: 10px; /* Espacio interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para el formulario de suscripción */
+.container form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    border-radius: 20px;
+}
+
+/* Estilos para el footer */
+.footer {
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos de botones */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* Estilos para dispositivos móviles */
+.container.fav-section .row {
+    display: flex;
+    flex-wrap: nowrap; /* Fuerza que todos los elementos estén en la misma fila */
+    justify-content: space-between; /* Espacio entre las columnas */
+    gap: 15px; /* Espacio entre los bloques */
+}
+
+.container.fav-section .col-md-3 {
+    flex: 1; /* Asegura que todas las columnas ocupen el mismo ancho */
+    max-width: 25%; /* Establece un ancho máximo del 25% para las columnas de 4 elementos */
+}
+
+.container.fav-section img {
+    width: 100%; /* Hace que las imágenes ocupen todo el ancho disponible en su columna */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.container.fav-section p {
+    text-align: justify; /* Justifica el texto para que se vea más uniforme */
+}
+
+.container.fav-list .row {
+    padding: 0 10px; /* Añade un espacio a los lados de la lista */
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.container.fav-list .col-md-4 {
+    flex: 1;
+    max-width: 25%;
+}
+
+#subs {
+    color: white;
+}

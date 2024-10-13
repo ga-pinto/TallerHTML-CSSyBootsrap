@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gabz Fav Artists</title>
+    <!-- Vinculación al CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+</head>
+<body>
+
+    <!-- Logo and Header -->
+    <div class="text-center">
+        <h1 class="my-4">THE GABZ FAV ARTISTS</h1>
+    </div>
+
+    <!-- Artistas (4 divs con imagen y descripción) -->
+    <div class="container fav-section">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img id="neighbourhood-img" src="https://th.bing.com/th/id/OIP.kj8WeZo76ReAuX6P11H3WwAAAA?rs=1&pid=ImgDetMain" alt="The Neighbourhood">
+                <h3>THE NEIGHBOURHOOD</h3>
+                <p>The Neighbourhood is an alternative rock band with a unique blend of indie pop, R&B, and hip hop influences. 
+                    Formed in 2011 in Newbury Park, California, the group rose to fame with their debut single "Sweater Weather" in 2012,
+                     which became a major hit. Their moody, atmospheric sound, which often incorporates dark, introspective themes,
+                      was solidified with the release of their debut album I Love You in 2013.</p>
+            </div>
+            <div id="arcticmonkeys-img" class="col-md-3">
+                <img src="https://m.media-amazon.com/images/I/71-Y-3usHkL._UF894,1000_QL80_.jpg" alt="Arctic Monkeys">
+                <h3>ARCTIC MONKEYS</h3>
+                <p>Arctic Monkeys are a British indie rock band that helped define the post-punk revival movement. 
+                    Formed in Sheffield in 2002, they gained widespread attention after self-releasing their demo,
+                     and their debut album Whatever People Say I Am, That’s What I’m Not (2006) became an instant success. 
+                     Known for their energetic sound and witty lyrics, the band's hits like "I Bet You Look Good on the Dancefloor" 
+                     and "Do I Wanna Know?" made them icons.</p>
+            </div>
+            <div class="col-md-3">
+                <img  id="xx-img" src="https://images-na.ssl-images-amazon.com/images/I/51B-5V0LYLL._SL1418_.jpg" alt="The xx">
+                <h3>THE XX</h3>
+                <p>The xx is a London-based band formed in 2005, known for their minimalist approach to indie pop and dream pop. 
+                    Their music features soft, haunting vocals paired with electronic beats, creating a subdued yet captivating atmosphere. 
+                    They garnered critical acclaim with their 2009 debut album xx, which won the prestigious Mercury Prize and introduced
+                     fans to hits like "Intro" and "Crystalised."</p>
+            </div>
+            <div class="col-md-3">
+                <img id="latinmafia-img" src="https://i.scdn.co/image/ab6761610000e5eb121765925ed68f21fea5c199" alt="Latin Mafia">
+                <h3>LATIN MAFIA</h3>
+                <p>Latin Mafia is a rising group in the Latin urban music scene, blending reggaeton and Latin trap with modern urban beats.
+                     Representing Latin strseet culture, their sound is gritty and raw, with lyrics that reflect life in the streets.
+                    Although newer to the scene, they have quickly made a name for themselves by mixing classic reggaeton rhythms with a modern, 
+                    trap-influenced edge, attracting fans from across the Latin music spectrum.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Lista (DA FAV LISTED) -->
+    <h2 class="text-center my-4">DA FAV LISTED</h2>
+    <div class="container fav-list">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="https://genius.com/The-neighbourhood-scary-love-lyrics" target="_blank">Scary Love</a></li>
+                    <li><a href="https://genius.com/The-neighbourhood-afraid-lyrics" target="_blank">Afraid</a></li>
+                    <li><a href="https://genius.com/The-neighbourhood-daddy-issues-lyrics" target="_blank">Daddy Issues</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="https://genius.com/Arctic-monkeys-r-u-mine-lyrics" target="_blank">RU Mine</a></li>
+                    <li><a href="https://genius.com/Arctic-monkeys-no-1-party-anthem-lyrics" target="_blank">No. 1 Anthem</a> </li>
+                    <li><a href="https://genius.com/Arctic-monkeys-teddy-picker-lyrics" target="_blank">Picker</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="https://genius.com/The-xx-lips-lyrics" target="_blank"> Lips</a></li>
+                    <li><a href="https://genius.com/The-xx-sunset-lyrics" target="_blank">Sunset</a></li>
+                    <li><a href="https://genius.com/The-xx-on-hold-lyrics" target="_blank">Hold</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="https://genius.com/Latin-mafia-flores-lyrics" target="_blank">Flores</a></li>
+                    <li><a href="https://genius.com/Latin-mafia-no-digas-nada-lyrics" target="_blank"> Digas Nada</a></li>
+                    <li><a href="https://genius.com/Latin-mafia-sal-rosa-lyrics" target="_blank">Rosa</a> </li>
+                </ul>
+        </div>
+    </div>
+
+    <!-- Formulario de Suscripción -->
+    <div class="container text-center my-5">
+        <h3 id="subs">SUBSCRIBE HERE FOR MORE</h3>
+        <form>
+            <input type="email" class="form-control w-50 mx-auto" placeholder="example@gabzfavz.com">
+            <button type="submit" class="btn btn-primary mt-3">Subscribe</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer text-center bg-black text-white">
+        <p>THE GABZ FAVZ © 2024</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
